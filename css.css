@@ -1,0 +1,199 @@
+body{
+margin:0px;
+ padding:0px;
+  background-image: linear-gradient(#f7f7f7,lightblue);
+ 
+}
+
+ *{
+    box-sizing: border-box;
+  }
+
+.container {
+   display: grid;
+   border: 0.1rem solid;
+   grid-template-columns:1fr 1fr 1fr 1fr;
+   grid-template-rows:5fr 700px 300px 300px 100px;
+   gap: 0.1em;
+    
+}  
+
+.navigation {
+
+grid-area: 1 / 1 / 1 / 5;
+
+ 
+
+
+
+}
+ 
+.content{
+
+grid-area: 2 / 1 / 3 / 5;
+}
+
+.content2{
+
+grid-area: 3 / 1 / 3 / 5;
+}
+.content3 {
+
+
+}
+.content4 {
+
+grid-area: 4 / 2 / 4 / 4;
+
+}
+.content5 {
+
+
+}
+
+
+
+.navigation {
+background-image: linear-gradient(#01bcd5);
+
+
+
+}
+
+
+li, a {
+list-style-type: none;
+text-decoration: none;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: hsl(31, 18%, 23%);
+}
+
+
+ .dropdown,
+ .dropbtn{
+display:block;
+
+ }
+
+
+
+
+
+
+.dropbtn {
+padding: 5px 5px;
+display: none;
+position: absolute;
+
+}
+
+.dropdown:hover .dropbtn{
+background-color: rgb(251, 255, 255);
+display: block;
+box-shadow: 3px 3px;
+padding: 5px 5px;
+border-radius: 1.0rem;
+
+
+}
+
+ul {
+display: flex;
+gap: 20px;
+
+
+}
+
+.navigation a:hover {
+color: black;
+
+
+}
+
+
+
+.content {
+text-align: center;
+justify-content:center;
+align-items: center;
+display: block;
+display: flex;
+background-image: url(Gemini_Generated_Image_6106f56106f56106.png);
+background-size: cover;
+background-position: center;
+}
+.content6 {
+grid-area: 5 / 1 / 5/ 5;
+border: solid 1px;
+
+}
+
+
+button {
+font-weight:bold;
+background-color: rgb(214, 209, 209);
+padding: 0.5rem 0.5rem;
+border-radius: 60rem;
+ width: 180px;
+  height: 60px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #91C9FF;
+  outline: none;
+  transition: 1s ease-in-out;
+
+  
+}
+
+
+button:hover {
+background-color: aquamarine;
+ transition: 1s ease-in-out;
+  background: #4F95DA;
+
+
+}
+
+.content3 {
+
+background-image: url(541163962_1464446958197861_6924841211068032898_n.jpg);
+background-position: center;
+background-size: contain;
+
+}
+.content4 {
+background-image: url(486769814_2829649343905850_1436083344943106490_n.jpg);
+background-position: center;
+background-size:cover;
+
+}
+
+.content5 {
+background-image: url(541283944_802207605691738_8127930934400560443_n.jpg);
+background-position: center;
+background-size: cover;
+
+
+}
+
+.content2 {
+display:table;
+justify-content: center;
+align-items:center;
+clear:both;
+
+
+}
+
+.content6 {
+background-color: #01bcd5;
+
+
+}
+.column {
+justify-content: center;
+text-align: center;
+align-content: space-between;
+padding: 10px 15px 10px 15px;
+
+}
