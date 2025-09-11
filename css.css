@@ -13,7 +13,7 @@ margin:0px;
    display: grid;
    border: 0.1rem solid;
    grid-template-columns:1fr 1fr 1fr 1fr;
-   grid-template-rows:5fr 700px 300px 300px 100px;
+   grid-template-rows:5fr 700px 800px 300px 100px;
    gap: 0.1em;
     
 }  
@@ -178,10 +178,9 @@ background-size: cover;
 .content2 {
 display: flex;
 justify-content: center;
-flex-basis: 1;
-flex-direction:row;
+flex-direction:column;
 overflow: hidden;
-flex-wrap: nowrap;
+flex-wrap:nowrap;
 }
 
 .content6 {
@@ -192,14 +191,14 @@ background-color: #01bcd5;
 .column {
 justify-content: center;
 text-align: center;
-align-content: space-between;
+
 padding: 10px 15px 10px 15px;
+grid-auto-rows:min-content;
 
 }
 
-@media (max-width: 600px) { 
-
-      .content2 {
-      width: 1000px;
-      }
-  }|
+img {
+box-shadow: 10px 10px 5px 5px;
+color: #01bcd5;
+border-radius: 20px;
+}
