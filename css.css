@@ -201,4 +201,21 @@ img {
 box-shadow: 10px 10px 5px 5px;
 color: #01bcd5;
 border-radius: 20px;
+cursor: pointer;
 }
+
+
+
+
+
+img:active{
+box-shadow: 15px 15px 15px 15px;
+
+}
+
+img:hover {
+color: #2d3135;
+
+
+}
+
